@@ -1,0 +1,26 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffc;
+    background-color: #CCFFCC;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    color: #ffc;
+    background-color: #197519;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #00CC00;
+}
+table{
+    margin-top: 20px;
+    border: 2px ridge;           
+    border-color: #009933;
+}

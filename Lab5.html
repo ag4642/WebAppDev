@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./Styles/Lab5.css"></head>
+    <h1>Best NBA Teams and Players</h1>
+<body onLoad = loadOptions()>
+    <script src="Lab5.js"></script>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <input type="radio" name="Menu Option" value="Dropdown" onclick=loadDrop() checked>Dropdown</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="Menu Option" value="List" onclick = loadList()>ListView</td>
+            </tr>
+        </table>
+    </center>
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <select onclick=loadSecondOptions() id="selectone" onkeyup= loadSecondOptions() </select></td>
+                    <td>
+                        <select id="selecttwo"></select>
+                    </td>
+                </tr>
+            </table>
+        </center>
+</body>
+    </html>

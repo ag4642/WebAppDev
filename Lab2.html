@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>50 States</title>
+    <link rel="stylesheet" href="./Styles/Lab2.css"></head>
+
+<body>
+
+    <script src="Lab2.js"></script>
+
+    <h1>Enter 50 States in 5 Minutes!</h1>
+    <h3>Begin typing to start timer</h3>
+<div id="data"> 
+    <form>
+        <input type="text" id="text_box_1" value="" autofocus onkeyup="doSomething()" onkeypress="searchKeyPress(event)" autcomplete="off"/>
+
+
+    </form>
+
+    <button type="button" id="button_1" value="Enter" onClick="wrong()">Enter</button>
+    <button type="button" id="restart" onClick="restart()">Restart</button>
+</div>
+    <div id="timer"></div>
+    <div id="score">Score: 0</div>
+    <p id="list"></p>
+    <img src="http://geography.about.com/library/blank/usa3.jpg"></body>
+</html>

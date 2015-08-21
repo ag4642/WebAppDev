@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>State Capitals</title>
+    <link rel="stylesheet" href="./Styles/Lab3.css"></head>
+
+<body onLoad="newState();">
+
+    <script src="Lab3.js"></script>
+
+    <h1>Enter State Capitals</h1>
+    <h3>Begin typing to start timer</h3>
+    <p id="instructions">3 pts: Answer in 5 seconds 2 pts: Answer in 10 seconds 1 pt: Answer with hint</p>
+    <p id="state"></p>
+    
+    <div id="data">
+    <input type="text" id="text_box_1" value="" autofocus onkeyup="doSomething()" autcomplete="off"/>
+        <button type="button" id="button_1" value="Enter" onClick="newState()" accesskey=n>E<u>n</u>ter For New State
+        </button>
+        <button type="button" id="restart" onClick="restart()" accesskey=r><u>R</u>estart
+        </button>
+        <button type="button" id="hint" onClick="hint()" accesskey=h><u>H</u>int
+        </button>
+    </div>
+    <div id="timer"></div>
+    <div id="score">Score: 0</div>
+    <p id="list"></p>
+    <img src="http://geography.about.com/library/blank/usa3.jpg"></body>
+</html>
